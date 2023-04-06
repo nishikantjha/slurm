@@ -1,0 +1,11 @@
+Source: slurm
+Maintainer: Nishikant nishikantjha0011@gmail.com
+Section: misc
+Priority: optional
+Standards-Version: 23.02.1
+
+Package: slurm
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Slurm workload manager
+ Slurm is an open-source workload manager designed for Linux clusters of all sizes.
